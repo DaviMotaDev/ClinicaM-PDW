@@ -1,0 +1,33 @@
+@import url("style/cabeçalho.css");
+@import url("style/menu.css");
+@import url("style/carrossel.css");
+@import url("style/sobre.css");
+@import url("style/card_serviço.css");
+@import url("style/cards.css");
+@import url("style/footer.css");
+@import url("style/forms.css");
+@import url("reset.css");
+
+
+
+:root {
+    --cor-primaria: #4D4D4D;
+    --branco: #ffffff;
+    --preto: #000000;
+    --azul: #2C27B1;
+    --cinza-azulado: #ECF0F1;
+    --azul-petroleo-escuro: #34495E;
+    --azul-petroleo: #2C3E50;
+    --turqueza-claro: #1ABC9C;
+    --verde-claro: #4CAF50;
+    --verde-escuro: #45a049;
+    --fonte-principal: "open sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: var(--cinza-azulado);
+    font-family: var( --fonte-principal);
+}

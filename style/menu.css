@@ -1,0 +1,79 @@
+.menu {
+  height: 70px;
+  width: 100%;
+  background: var(--azul-petroleo-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 600px;
+}
+.lista-item {
+  text-decoration: none;
+  color: var(--cinza-azulado);
+}
+.menu-lista {
+  display: flex;
+  width: 235px;
+  color: var(--branco);
+  font-family: var(--fonte-princiapal);
+  font-family: var(--fonte-principal);
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.menu__botao-agendamento {
+  padding: 13px;
+  border-radius: 10px;
+  background: var(--turqueza-claro);
+  font-family: var(--fonte-principal);
+  color: var(--branco);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 1280px){
+  .menu {
+    padding: 0 200px;
+    padding-right: 100px;
+    flex-direction: row;
+    height: 70px;
+    gap: 10px;
+  }
+
+  .menu-lista {
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .menu__botao-agendamento {
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .menu {
+   padding: 10px 5px;
+   flex-direction: column;
+  }
+  .menu-lista {
+    display: none;
+  }
+  .menu__botao-agendamento {
+    font-size: 12px;
+  }
+}

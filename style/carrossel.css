@@ -1,0 +1,51 @@
+.carrossel__container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel {
+    height: 90%;
+    width: 80%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrossel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    background: var(--cor-primaria);
+}
+
+  
+
+@media screen and (max-width: 1024px) {
+    .carrossel__container {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .carrossel__container {
+        height: 200px;
+        padding-top: 30px;
+    }
+    .carrossel {
+
+        height: 100%;
+        width: 80%;
+    }
+}

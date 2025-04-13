@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clínica Mota</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <h3 class="cabeçalho__texto">CLÍNICA MOTA</h3>
+    </header>
+    <header class="menu">
+        <div class="menu-lista">
+            <a class="lista-item" href="index.html">Home</a>
+            <a class="lista-item" href="index.html">Sobre nós</a>
+            <a class="lista-item" href="index.html">Serviços</a>
+        </div>
+        <a class="menu__botao-agendamento" href="index.html">Voltar</a>
+    </header>
+    <section class="formulario">
+        <h1 class="formulario__titulo">Formulário</h1>
+    </section>
+    <section class="forms">
+        <form action="/submit" method="post" >
+            <label class="forms__titulo" for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <br>
+            <label class="forms__titulo" for="sobrenome">Sobrenome:</label>
+            <br>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+            <br>
+            <br>
+            <label class="forms__titulo" for="cidade">Cidade:</label>
+            <br>
+            <input type="text" id="cidade" name="cidade" required>
+            <br>
+            <br>
+            <label class="forms__titulo" for="estado">Estado:</label>
+            <br>
+            <input type="text" id="estado" name="estado" required>
+            <br>
+            <br>
+            <input class="forms__titulo" type="submit" value="Enviar">
+          </form>
+    </section>
+</body>
+
+</html>
