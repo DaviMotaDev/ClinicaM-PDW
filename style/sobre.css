@@ -11,6 +11,7 @@
     font-size: 3.951vh;
     font-weight: 600;
     padding: 20px;
+    text-align: center;
 }
 .sobre__texto {
     color: var(--azul-petroleo);

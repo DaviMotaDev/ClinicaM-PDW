@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap"
     rel="stylesheet">
   <title>Clínica Mota</title>
+  <link rel="icon" type="image/png" href="/img/favicon.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -20,14 +21,14 @@
   </header>
   <header class="menu">
     <div class="menu-lista">
-      <p class="lista-item">Home</p>
-      <p class="lista-item">Sobre nós</p>
-      <p class="lista-item">Serviços</p>
+      <p class="lista-item" id="home">Home</p>
+      <p class="lista-item" id="sobre">Sobre nós</p>
+      <p class="lista-item" id="serviços">Serviços</p>
     </div>
     <a class="menu__botao-agendamento" href="agendamento.html">Pesquisar especialidade</a>
   </header>
   <!-- Inicio da API -->
-  <div class=" carrossel__container">
+  <div class=" carrossel__container" id="destinoHome">
     <div class="carrossel">
       <div class="swiper">
         <!-- Paginação -->
@@ -51,7 +52,7 @@
   </div>
   <!-- Fim da API -->
   <section class="sobre-nos">
-    <h2 class="sobre__titulo">Sobre nós</h2>
+    <h2 class="sobre__titulo" id="destinoSobre">Sobre nós</h2>
     <p class="sobre__texto">
       A Clínica Mota é referência em cuidado com a saúde, unindo atendimento humanizado, estrutura moderna e
       profissionais experientes em diversas especialidades.
@@ -81,6 +82,7 @@
       Clínica Mota – Saúde com qualidade e cuidado de verdade.
     </p>
   </section>
+  <h2 class="sobre__titulo" id="destinoServiços">Serviços</h2>
   <section class="cards">
     <div class="div__card">
       <div class="card">
@@ -115,7 +117,7 @@
       </div>
     </div>
   </section>
-
+  <h2 class="sobre__titulo">Funcionários</h2>
   <section class="cards">
     <div class="div__card">
       <div class="card">
@@ -178,6 +180,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="app/swiper.js"></script>
+  <script src="app/scroll.js"></script>
 </body>
 
 </html>
